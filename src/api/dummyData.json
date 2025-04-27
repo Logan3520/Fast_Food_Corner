@@ -1,0 +1,227 @@
+{
+  "restaurants": [
+    {
+        "id": "r1",
+        "name": "Burger Palace",
+        "image": "burger_palace.jpg",
+        "foods": [
+          {
+            "id": "f1",
+            "name": "Classic Burger",
+            "description": "Juicy beef patty with fresh lettuce and tomato",
+            "restaurantId": "r1"
+          },
+          {
+            "id": "f2",
+            "name": "Cheese Burger",
+            "description": "Classic burger with melted cheddar cheese",
+            "restaurantId": "r1"
+          },
+          {
+            "id": "f3",
+            "name": "Bacon Burger",
+            "description": "Classic burger with crispy bacon",
+            "restaurantId": "r1"
+          },
+          {
+            "id": "f4",
+            "name": "Veggie Burger",
+            "description": "Delicious veggie patty with fresh veggies",
+            "restaurantId": "r1"
+          },
+          {
+            "id": "f5",
+            "name": "Chicken Burger",
+            "description": "Grilled chicken patty with fresh veggies",
+            "restaurantId": "r1"
+          }
+        ]
+      },
+      {
+        "id": "r2",
+        "name": "Pizza Town",
+        "image": "pizza_town.jpg", 
+        "foods": [
+          {
+            "id": "f6",
+            "name": "Margherita Pizza",
+            "description": "Classic pizza with tomato sauce and mozzarella",
+            "restaurantId": "r2"
+          },
+          {
+            "id": "f7",
+            "name": "Pepperoni Pizza",
+            "description": "Pizza with spicy pepperoni slices",
+            "restaurantId": "2"
+          },
+          {
+            "id": "f8",
+            "name": "Vegetarian Pizza",
+            "description": "Pizza with mixed vegetables", 
+            "restaurantId": "r2"
+          },
+          {
+            "id": "f9",
+            "name": "Hawaiian Pizza",
+            "description": "Pizza with ham and pineapple",
+            "restaurantId": "r2"
+          },
+          {
+            "id": "f10",
+            "name": "BBQ Chicken Pizza",
+            "description": "Pizza with BBQ chicken",
+            "restaurantId": "r2"
+          }
+        ]
+      },
+      {
+        "id": "r3",
+        "name": "Sushi Spot",
+        "image": "sushi_spot.jpg", 
+        "foods": [
+          {
+            "id": "f11",
+            "name": "California Roll",
+            "description": "Crab, avocado, and cucumber roll",
+            "restaurantId": "r3"
+          },
+          {
+            "id": "f12",
+            "name": "Spicy Tuna Roll",
+            "description": "Spicy tuna with cucumber",
+            "restaurantId": "r3"
+          },
+          {
+            "id": "f13",
+            "name": "Salmon Nigiri",
+            "description": "Fresh salmon on sushi rice",
+            "restaurantId": "r3"
+          },
+          {
+            "id": "f14",
+            "name": "Shrimp Tempura Roll",
+            "description": "Tempura shrimp roll",
+            "restaurantId": "3"
+          },
+          {
+            "id": "f15",
+            "name": "Vegetable Roll",
+            "description": "Assorted vegetable roll",
+            "restaurantId": "r3"
+          }
+        ]
+      },
+      {
+        "id": "r4",
+        "name": "Taco Fiesta",
+        "image": "taco_fiesta.jpg", 
+        "foods": [
+          {
+            "id": "f16",
+            "name": "Beef Tacos",
+            "description": "Seasoned ground beef in soft tortillas",
+            "restaurantId": "r4"
+          },
+          {
+            "id": "f17",
+            "name": "Chicken Tacos",
+            "description": "Shredded chicken in soft tortillas",
+            "restaurantId": "r4"
+          },
+          {
+            "id": "f18",
+            "name": "Fish Tacos",
+            "description": "Fried fish in soft tortillas",
+            "restaurantId": "r4"
+          },
+          {
+            "id": "f19",
+            "name": "Veggie Tacos",
+            "description": "Mixed vegetables in soft tortillas",
+            "restaurantId": "r4"
+          },
+          {
+            "id": "f20",
+            "name": "Shrimp Tacos",
+            "description": "Grilled shrimp in soft tortillas",
+            "restaurantId": "r4"
+          }
+        ]
+      },
+      {
+        "id": "r5",
+        "name": "Pasta Place",
+        "image": "pasta_place.jpg", 
+        "foods": [
+          {
+            "id": "f21",
+            "name": "Spaghetti Carbonara",
+            "description": "Spaghetti with bacon and creamy sauce",
+            "restaurantId": "5"
+          },
+          {
+            "id": "f22",
+            "name": "Fettuccine Alfredo",
+            "description": "Fettuccine with creamy alfredo sauce", 
+            "restaurantId": "r5"
+          },
+          {
+            "id": "f23",
+            "name": "Lasagna",
+            "description": "Layers of pasta with meat and cheese",
+            "restaurantId": "r5"
+          },
+          {
+            "id": "f24",
+            "name": "Penne Arrabbiata",
+            "description": "Penne with spicy tomato sauce",
+            "restaurantId": "r5"
+          },
+          {
+            "id": "f25",
+            "name": "Vegetable Pasta",
+            "description": "Pasta with assorted vegetables",
+            "restaurantId": "r5"
+          }
+        ]
+      },
+      {
+        "id": "r6",
+        "name": "Indian Curry House",
+        "image": "indian_curry_house.jpg", 
+        "foods": [
+          {
+            "id": "f26",
+            "name": "Butter Chicken",
+            "description": "Creamy tomato-based chicken curry",
+            "restaurantId": "r6"
+          },
+          {
+            "id": "f27",
+            "name": "Chicken Tikka Masala",
+            "description": "Grilled chicken in a spiced tomato sauce",
+            "restaurantId": "r6"
+          },
+          {
+            "id": "f28",
+            "name": "Palak Paneer",
+            "description": "Spinach and cheese curry",
+            "restaurantId": "r6"
+          },
+          {
+            "id": "f29",
+            "name": "Vegetable Biryani",
+            "description": "Mixed vegetable and rice dish",
+            "restaurantId": "r6"
+          },
+          {
+            "id": "f30",
+            "name": "Lamb Rogan Josh",
+            "description": "Aromatic lamb curry",
+            "restaurantId": "r6"
+          }
+        ]
+      }
+    
+  ]
+}
