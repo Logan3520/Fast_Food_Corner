@@ -41,7 +41,7 @@ const Cart = () => {
           Clear Cart
         </button>
       )}
-      {cartItems.length > 0 && (
+      {cart.length > 0 && (
         <button className={styles.placeOrderButton} onClick={handlePlaceOrder}>
           Place Order
         </button>

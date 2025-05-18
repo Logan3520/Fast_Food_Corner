@@ -6,6 +6,8 @@ const FoodItem = ({ id, name, description }) => {
   const {addToCart} = useContext(CartContext);
 
   const handleAddToCart = ()=>{
+    console.log("Adding to cart",id,name,description);
+    
         addToCart({id:id,name:name,description:description});
   };
 

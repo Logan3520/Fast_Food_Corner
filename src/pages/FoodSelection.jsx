@@ -3,12 +3,13 @@ import FoodItem from '../components/FoodItem';
 import { useParams } from 'react-router-dom';
 import { getFoodsByRestaurantId } from '../api/api';
 import styles from './FoodSelection.module.css';
+import { CartContext } from '../App';
 
 
 
 const FoodSelection = () => {
   const { restaurantId } = useParams();
-
+  const { addToCart } = useContext(CartContext);
   const [foods, setFoods] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -27,6 +28,14 @@ const FoodSelection = () => {
     loadFoods();
   }, [restaurantId]);
 
+// useEffect(()=>{
+//   console.log("foods selected",foods.description);
+  
+//   if(foods.description !== undefined){
+//     addToCart(foods);
+//   }
+// },[foods]);
+
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -39,7 +48,7 @@ const FoodSelection = () => {
       <h2 className={styles.title}>Food Menu</h2>
       <div className={styles.foodList}>
         {foods.map((food) => (
-          <FoodItem key={food.id} name={food.name} description={food.description} />
+          <FoodItem key={food.id} id = {food.id} name={food.name} description={food.description} />
         ))}
       </div>
     </div>
