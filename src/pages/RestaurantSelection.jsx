@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import RestaurantCard from '../components/RestaurantCard';
 import { getRestaurants } from '../api/api';
 import styles from './RestaurantSelection.module.css';

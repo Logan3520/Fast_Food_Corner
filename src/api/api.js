@@ -12,12 +12,13 @@ export function getRestaurants() {
 }
 
 export function getFoodsByRestaurantId(restaurantId) {
-  const Food = dummyData.restaurants.filter( (restaurant)=>{     
-     restaurant.id === restaurantId
-      }).map((restaurant)=>({ Food: restaurant.foods}))
-  console.log( Food);
-  
-  return Food;
+  const foods = dummyData.restaurants
+    .filter((restaurant) => restaurant.id === restaurantId)
+    .flatMap((restaurant) => restaurant.foods); 
+
+  console.log(foods);
+
+  return foods;
 }
 
 

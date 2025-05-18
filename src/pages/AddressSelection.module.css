@@ -1,0 +1,75 @@
+.address-form-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  /* background-color: #f4f4f4; */
+  background-color: transparent;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.address-form {
+  display: flex;
+  flex-direction: column; 
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left; 
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: auto;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .address-form {
+    padding: 15px;
+    /* border: none; */
+    /* box-shadow: none; */
+  }
+  .form-label {
+    text-align: left;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .address-form {
+    padding: 15px;
+  }
+}

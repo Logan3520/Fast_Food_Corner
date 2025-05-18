@@ -1,0 +1,101 @@
+/* src/pages/Cart.module.css */
+
+.cart-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.cart-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.empty-cart-message {
+  text-align: center;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.clear-cart-button,
+.place-order-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.place-order-button {
+  background-color: #4CAF50;
+}
+
+.clear-cart-button:hover,
+.place-order-button:hover {
+  background-color: #367c39;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-container {
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  .cart-header {
+    font-size: 22px;
+  }
+
+  .cart-item {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart-header {
+    font-size: 20px;
+  }
+
+  .clear-cart-button,
+  .place-order-button {
+    padding: 8px 16px;
+  }
+}
